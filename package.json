@@ -1,0 +1,30 @@
+{
+  "name": "friend-finder",
+  "version": "1.0.0",
+  "description": "friend finding app using node.js",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gscoggin/friend-finder.git"
+  },
+  "keywords": [
+    "node.js",
+    "friendFinder",
+    "fullstack"
+  ],
+  "author": "Gabe Scoggin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gscoggin/friend-finder/issues"
+  },
+  "homepage": "https://github.com/gscoggin/friend-finder#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "path": "^0.12.7"
+  }
+}
